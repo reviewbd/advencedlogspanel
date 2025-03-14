@@ -28,9 +28,6 @@ Ce projet fournit un système complet pour la gestion et l'affichage des logs de
 
 /votre-projet ├── config.php # Configuration de la connexion à la BDD et gestion de la session ├── login.php # Page de connexion utilisateur ├── dashboard.php # Interface dashboard affichant les logs ├── logout.php # Déconnexion de l'utilisateur ├── add_log.php # Endpoint pour recevoir les logs via POST ├── css/ │ └── style.css # Feuille de style en Dark Mode ├── js/ │ └── script.js # Fichier JavaScript pour interactions éventuelles └── fivem_logger/ # Ressource FiveM pour la gestion des logs ├── fivem_logger.lua # Script Lua avancé pour capturer et envoyer les logs └── fxmanifest.lua # Manifest pour déclarer la ressource sur FiveM
 
-yaml
-Copier
-Modifier
 
 ---
 
@@ -53,10 +50,7 @@ Dans le fichier fivem_logger.lua, modifiez la variable httpEndpoint pour pointer
 b. Configuration du serveur FiveM
 Ajoutez la ressource dans votre fichier server.cfg :
 
-plaintext
-Copier
-Modifier
-ensure fivem_logger
+`ensure fivem_logger` 
 Redémarrez votre serveur FiveM pour charger la ressource.
 
 Utilisation
@@ -83,9 +77,6 @@ Ce projet est distribué sous licence MIT. Vous êtes libre de le modifier et de
 Contact
 Pour toute question ou suggestion, veuillez ouvrir une issue sur le dépôt ou contacter le mainteneur du projet.
 
-yaml
-Copier
-Modifier
 
 ---
 
