@@ -1,4 +1,4 @@
-local httpEndpoint = "http://votre-domaine.com/add_log.php"  
+local httpEndpoint = "http://votre-domaine.com/addlogs.php"  
 local logQueue = {}
 
 local function enqueueLog(eventType, description)
