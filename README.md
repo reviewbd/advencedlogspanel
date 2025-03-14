@@ -26,7 +26,20 @@ Ce projet fournit un système complet pour la gestion et l'affichage des logs de
 
 ## Structure du Projet
 
-/votre-projet ├── config.php # Configuration de la connexion à la BDD et gestion de la session ├── login.php # Page de connexion utilisateur ├── dashboard.php # Interface dashboard affichant les logs ├── logout.php # Déconnexion de l'utilisateur ├── add_log.php # Endpoint pour recevoir les logs via POST ├── css/ │ └── style.css # Feuille de style en Dark Mode ├── js/ │ └── script.js # Fichier JavaScript pour interactions éventuelles └── fivem_logger/ # Ressource FiveM pour la gestion des logs ├── fivem_logger.lua # Script Lua avancé pour capturer et envoyer les logs └── fxmanifest.lua # Manifest pour déclarer la ressource sur FiveM
+/votre-projet
+├── config.php # Configuration de la connexion à la BDD et gestion de la session 
+├── login.php # Page de connexion utilisateur 
+├── dashboard.php # Interface dashboard affichant les logs 
+├── logout.php # Déconnexion de l'utilisateur 
+├── add_log.php # Endpoint pour recevoir les logs via POST 
+├── amettredansvotrebasededonnés.sql # SQL a mettre dans votre base de données 
+├── css/ 
+│ └── style.css # Feuille de style en Dark Mode 
+├── js/ │ 
+└── script.js # Fichier JavaScript pour interactions éventuelles 
+└── fivem/ # Ressource FiveM pour la gestion des logs 
+├── server.lua # Script Lua avancé pour capturer et envoyer les logs 
+└── fxmanifest.lua # Manifest pour déclarer la ressource sur FiveM
 
 
 ---
